@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 apply plugin: 'com.heapanalytics.android'
-apply plugin: 'kotlin-kapt'
 
 android {
     compileSdk 31
@@ -40,9 +39,4 @@ android {
 dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-
-    implementation "com.squareup.moshi:moshi:1.13.0"
-    kapt "com.squareup.moshi:moshi-kotlin-codegen:1.13.0"
-
 }
